@@ -27,6 +27,9 @@
     "git-flow",
     "conventional-commits"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "ngmd-git-flow": "./scripts/index.js"
   }
