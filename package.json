@@ -1,0 +1,17 @@
+{
+  "name": "ngmd-git-flow",
+  "version": "0.0.1",
+  "description": "husky, commitlint, validate-branch-name, angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "husky",
+    "commitlint",
+    "validate-branch-name",
+    "angular"
+  ],
+  "author": "Max Demidov <sxemax1@gmail.com>",
+  "license": "MIT"
+}

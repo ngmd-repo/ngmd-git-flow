@@ -1,0 +1,33 @@
+{
+  "name": "@ngmd/git-flow",
+  "version": "0.0.1",
+  "description": "Complete Git Flow automation with commit validation, branch naming conventions, and zero-config git hooks setup",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./validate-branch-name": "./validate-branch-name/index.js",
+    "./commitlint": "./commitlint/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Demidov <sxemax1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/cli": "~20.1.0",
+    "husky": "~9.1.7",
+    "validate-branch-name": "~1.3.2"
+  },
+  "keywords": [
+    "husky",
+    "commitlint",
+    "commitlint-config",
+    "validate-branch-name",
+    "angular",
+    "git-flow",
+    "conventional-commits"
+  ],
+  "bin": {
+    "ngmd-git-flow": "./scripts/index.js"
+  }
+}
