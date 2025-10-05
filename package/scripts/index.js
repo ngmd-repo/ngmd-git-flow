@@ -47,7 +47,7 @@ function initHusky() {
   );
 }
 
-function validateBranchNameConfigTemplate() {
+function createBranchNameConfigTemplate() {
   return (
     `const { useValidateBranchNameConfig } = require('@ngmd/git-flow/validate-branch-name');` +
     `\n\nmodule.exports = useValidateBranchNameConfig();`
@@ -57,7 +57,7 @@ function validateBranchNameConfigTemplate() {
 function createValidateBranchConfigFile() {
   const PATH_TO_FILE = join(PROJECT_ROOT, "validate-branch-name.config.js");
 
-  writeFileSync(PATH_TO_FILE, validateBranchNameConfigTemplate(), {
+  writeFileSync(PATH_TO_FILE, createBranchNameConfigTemplate(), {
     encoding: "utf-8",
   });
 }
