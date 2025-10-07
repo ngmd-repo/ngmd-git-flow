@@ -16,6 +16,6 @@
   "author": "Max Demidov <sxemax1@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@ngmd/git-flow": "~0.0.1"
+    "@ngmd/git-flow": "~0.0.2"
   }
 }
