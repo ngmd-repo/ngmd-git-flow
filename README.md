@@ -28,6 +28,7 @@ The `@ngmd/git-flow` library provides ready-to-use configurations and automation
 - `docs` - documentation
 - `app` - main application
 - `lib` - libraries and utilities
+- `global` - global changes for all parts of the repository
 
 ### Branch format
 

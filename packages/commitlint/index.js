@@ -13,6 +13,7 @@ const AVAILABLE_SCOPES = [
   "docs", // documentation
   "app", // main application
   "lib", // libraries and utilities
+  "global", // global changes
 ];
 
 const CORRECT_COMMIT_MSG =
