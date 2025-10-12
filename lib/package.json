@@ -3,10 +3,12 @@
   "version": "$(version)",
   "description": "Complete Git Flow automation with commit validation, branch naming conventions, and zero-config git hooks setup",
   "main": "index.js",
-  "exports": {
-    ".": "./index.js",
-    "./validate-branch-name": "./validate-branch-name/index.js",
-    "./commitlint": "./commitlint/index.js"
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "url": "https://github.com/ngmd-repo/ngmd-git-flow"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,9 +29,6 @@
     "git-flow",
     "conventional-commits"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "bin": {
     "ngmd-git-flow": "./scripts/index.js"
   }
